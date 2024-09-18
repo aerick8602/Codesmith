@@ -19,11 +19,13 @@ A backend API for an Instagram-like app, built with Go and PostgreSQL. It suppor
   - **Method:** `POST`
   - **Body:** `{"name": "John Doe", "email": "johndoe@example.com", "password": "password123"}`
   - **Responses:** `201 Created`, `400 Bad Request`, `500 Internal Server Error`
+  ![](./public/Screenshot%202024-09-18%20213724.png)
 
 - **Get a User by ID**
   - **URL:** `/users/{id}`
   - **Method:** `GET`
   - **Responses:** `200 OK`, `400 Bad Request`, `404 Not Found`
+    ![](./public/Screenshot%202024-09-18%20213839.png)
 
 ### Post Endpoints
 
@@ -32,16 +34,19 @@ A backend API for an Instagram-like app, built with Go and PostgreSQL. It suppor
   - **Method:** `POST`
   - **Body:** `{"caption": "Caption", "imageUrl": "https://example.com/image.jpg", "postedTimestamp": "2024-09-18T12:00:00Z", "userId": 1}`
   - **Responses:** `201 Created`, `400 Bad Request`, `500 Internal Server Error`
+    ![](./public//Screenshot%202024-09-18%20214207.png)
 
 - **Get a Post by ID**
   - **URL:** `/posts/{id}`
   - **Method:** `GET`
   - **Responses:** `200 OK`, `400 Bad Request`, `404 Not Found`
+    ![](./public/Screenshot%202024-09-18%20214245.png)
 
 - **List Posts by User**
   - **URL:** `/posts/users/{userId}`
   - **Method:** `GET`
   - **Responses:** `200 OK`, `400 Bad Request`, `404 Not Found`
+    ![](./public/Screenshot%202024-09-18%20214326.png)
 
 ## Setup
 
