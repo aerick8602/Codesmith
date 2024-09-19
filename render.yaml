@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: codesmith-app
-    env: go
-    buildCommand: go build -tags netgo -ldflags '-s -w' -o main.exe
-    startCommand: ./main.exe
-    envVars:
-      - key: GO_VERSION
-        value: 1.23.1
